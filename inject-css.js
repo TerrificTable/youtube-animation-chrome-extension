@@ -35,6 +35,14 @@ ytd-compact-radio-renderer:hover {
     transform: scale(1.03);
 }
 
+ytd-grid-video-renderer {
+    border-radius: 10px;
+    transition: all .1s;
+}
+ytd-grid-video-renderer:hover {
+    box-shadow: 5px 5px 15px #000;
+    transform: scale(1.03);
+}
 
 ytd-rich-item-renderer #content {
     border-radius: 10px;
