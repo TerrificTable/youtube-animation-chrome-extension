@@ -15,7 +15,7 @@ ytd-guide-entry-renderer {
 }
 ytd-guide-entry-renderer:hover {
     box-shadow: 2px 2px 10px #000;
-    transform: scale(1.002);
+    transform: scale(1.02);
 }
 
 ytd-account-item-renderer {
