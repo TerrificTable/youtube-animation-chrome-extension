@@ -1,5 +1,15 @@
 var style = document.createElement("style");
 style.appendChild(document.createTextNode(`
+ytd-compact-link-renderer {
+    border-radius: 10px;
+    transition: all .1s;
+}
+
+ytd-compact-link-renderer:hover {
+    box-shadow: 2px 2px 10px #000;
+    transform: scale(1.002);
+}
+
 ytd-guide-entry-renderer {
     border-radius: 10px;
     transition: all .1s;
