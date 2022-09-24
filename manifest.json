@@ -1,0 +1,37 @@
+{
+    "name": "Youtube Hover Animations",
+    "description": "Improves YouTube's video hover animations!",
+    "version": "1.0",
+    "author": "TerrificTable",
+    "homepage_url": "https://github.com/TerrificTable/",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": {
+            "16": "/images/icon16.png",
+            "32": "/images/icon32.png",
+            "48": "/images/icon48.png",
+            "128": "/images/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/icon16.png",
+        "32": "/images/icon32.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/*"],
+            "js": ["inject-css.js"]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "activeTab", 
+        "scripting"
+    ]
+}
+
