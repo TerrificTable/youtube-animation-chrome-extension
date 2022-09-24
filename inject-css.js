@@ -15,8 +15,8 @@ ytd-guide-entry-renderer {
     transition: all .1s;
 }
 ytd-guide-entry-renderer:hover {
-    box-shadow: 5px 5px 15px #000;
-    transform: scale(1.05);
+    box-shadow: 2px 2px 10px #000;
+    transform: scale(1.002);
 }
 
 ytd-rich-section-renderer #content {
