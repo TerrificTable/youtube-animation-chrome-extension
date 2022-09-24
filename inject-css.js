@@ -1,5 +1,15 @@
 var style = document.createElement("style");
-style.appendChild(document.createTextNode(`ytd-rich-section-renderer #content {
+style.appendChild(document.createTextNode(`
+ytd-guide-entry-renderer {
+    border-radius: 10px;
+    transition: all .1s;
+}
+ytd-guide-entry-renderer:hover {
+    box-shadow: 5px 5px 15px #000;
+    transform: scale(1.05);
+}
+
+ytd-rich-section-renderer #content {
     border-radius: 10px;
     transition: all .1s;
 }
