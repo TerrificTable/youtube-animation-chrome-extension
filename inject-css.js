@@ -4,7 +4,6 @@ ytd-compact-link-renderer {
     border-radius: 10px;
     transition: all .1s;
 }
-
 ytd-compact-link-renderer:hover {
     box-shadow: 2px 2px 10px #000;
     transform: scale(1.002);
@@ -18,6 +17,16 @@ ytd-guide-entry-renderer:hover {
     box-shadow: 2px 2px 10px #000;
     transform: scale(1.002);
 }
+
+ytd-account-item-renderer {
+    border-radius: 10px;
+    transition: all .1s;
+}
+ytd-account-item-renderer:hover {
+    box-shadow: 2px 2px 10px #000;
+    transform: scale(1.002);
+}
+
 
 ytd-rich-section-renderer #content {
     border-radius: 10px;
